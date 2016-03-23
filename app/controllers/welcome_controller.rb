@@ -6,7 +6,7 @@ class WelcomeController < ApplicationController
     @name = params[:name] || "Billy"
   end
 
-  def lorem
+  def lipsum
     @lipsum = My_Lipsum.generate_lipsum(params[:lipsum])
   end
 
